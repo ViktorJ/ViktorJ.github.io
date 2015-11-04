@@ -4,8 +4,6 @@ title: About
 
 Hello.
 
-The main purpose of this theme is to be as simple as it could be, so you can focus on writing your stuffs. This is your About page. You may describe about yourself here; who you are, what are you currently doing, share some of your projects, your social links and how people can contact you, etc.
+My name is Viktor Jansson and this is my blog in the course RIA-development at the Linnaeus university. The object of the course is to do a project in JavaScript using different techniques and frameworks like React, React Router and Redux. 
 
-**Just write thing that matters..**
-
-Enjoy!
+This blog will be used for documentation about the project as well as other topics that may come to my mind regarding web development.
