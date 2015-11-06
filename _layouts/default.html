@@ -25,6 +25,8 @@ layout: compress
 			{% endif %}
 
 		{% endif %}
+        
+        {% include comments.html %}
             
         <footer>
             <div class="divider"></div>
@@ -32,18 +34,7 @@ layout: compress
             <a href="mailto:rotkivnossnaj@gmail.com"><i class="fa fa-envelope"></i></a> |   <a href="https://github.com/ViktorJ"><i class="fa fa-github"></i></a>
         </footer>
         
-    <script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-      var disqus_shortname = 'viktorjansson'; // required: replace example with your forum shortname
-      // var disqus_developer = 1; // Comment out when the site is live
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    </script> 
+        <script id="dsq-count-scr" src="//viktorjansson.disqus.com/count.js" async></script>
 	</body>
 
 </html>
