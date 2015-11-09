@@ -11,7 +11,7 @@ author_gravatar:    ffc3d85ee54001e662ea2ce9e67ccb8b # Gravatar md5 hash
 twitter_username:   rotkivnossnaj
 
 # Site Settings
-baseurl:            "http://viktorj.hithub.io" # Base URL must end WITHOUT a slash, default: ""
+baseurl:            "http://viktorj.github.io" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
 timezone:           Europe/Stockholm # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
