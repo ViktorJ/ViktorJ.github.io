@@ -5,6 +5,14 @@ updated: 2015-12-18
 
 # The beauty of Redux
 
+
+-----
+Edit 2015-01-08
+
+As it turns out I was not thinking straight when I wrote this blogpost. The best approach for this problem was infact to use params and that was also super easy to do with React Router once I learned the correct syntax. So do not take this blogpost as the truth but rather look at it as a part of my progress in mastering React and Redux.
+
+-----
+
 One of the things I spent some time thinking about was how to access the data of a specific note when that note is selected. I have a list with all notes and when one note is selected, you get redirected to a page with detailed info about that note.
 My initial (stupid) thought was to send the note id as a paramether in the route and then get that specific note from firebase. So I started to read up about how to send params in React-Router and while I understand that is possible i didn't get it to work. After some frustrating thinking and trying I realized I was aproaching the problem all wrong. Redux to the rescue!
 
